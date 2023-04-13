@@ -29,7 +29,7 @@ body {
   height: 100%;
   overflow: hidden;
   border-radius: 6px;
-  border: 1px solid gray;
+/*   border: 1px solid gray; */
 /*   margin: 20px; */
   cursor: text;
   position: relative;
