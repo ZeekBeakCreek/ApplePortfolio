@@ -2,11 +2,11 @@ const terminal = document.querySelector("#terminal");
 const title = document.querySelector(".title")
 const rect = terminal.getBoundingClientRect()
 const redButton = document.querySelector(".red")
-title.innerText = `slimjim - zsh - ${Math.trunc(rect.x)}x${Math.trunc(rect.y)}`
+title.innerText = `slimjim - zsh - ${Math.trunc(window.innerWidth)}x${Math.trunc(window.innerHeight)}`
 
 window.addEventListener('resize' , () => {
     const rect = terminal.getBoundingClientRect()
-    title.innerText = `slimjim - zsh - ${Math.trunc(rect.x)}x${Math.trunc(rect.y)}`
+    title.innerText = `slimjim - zsh - ${Math.trunc(window.innerWidth)}x${Math.trunc(window.innerHeight)}`
 }) 
 
 redButton.addEventListener('click', () => {
@@ -88,12 +88,15 @@ async function getInputValue() {
     addText("POINTLESS.CO Ecommerce - <a href=' https://zeekbeakcreek.github.io/PointlessEcommerce/' target='_blank'>{--> Live Server Here <--}</a>" );
     addText("JSON + Blob API Locations - <a href='https://zeekbeakcreek.github.io/JSONBlob/' target='_blank'>{--> Live Server Here <--}</a>" );
     addText("Watermelon Pixel Art - <a href='https://zeekbeakcreek.github.io/Melon-Canvas/' target='_blank'>{--> Live Server Here <--}</a>" );
-    addText("Tic-Tac-Toe Game - <a href='https://zeekbeakcreek.github.io/tic-tac-toe/' target='_blank'>{--> Live Server Here <--}</a>" );
+    addText("React Weather API - <a href='https://weather-api-green.vercel.app/' target='_blank'>{--> Live Server Here <--}</a>" );
+    addText("React Movies API - <a href='https://movie-api-six-eosin.vercel.app/' target='_blank'>{--> Live Server Here <--}</a>" );
+    addText("React Random Quotes API - <a href='https://random-jokes-seven.vercel.app/' target='_blank'>{--> Live Server Here <--}</a>" );
+    addText("React Random Jokes API - <a href='https://random-jokes-seven.vercel.app/' target='_blank'>{--> Live Server Here <--}</a>" );
   } else if (value === "about me") {
     trueValue(value);
     addText("Hello my name is Ezequiel Piña but people call me Zeek");
     addText(
-      "I am a full-time student who loves pineapple \uD83C\uDF4D & specializes in HTML5, CSS3, & ES6 JS. I am currently attending the West-Mec Coding program to better develop my skills in Front-End Web Development."
+      "I am a full-time student who loves pineapple \uD83C\uDF4D & specializes in HTML5, CSS3, SQL, PHP, JavaScript (React, Next, & Svelte). I am currently graduating the West-Mec Coding program to better develop my skills in Front-End & Back-End Web Development."
     );
   } else if (value === "contact -a") {
     trueValue(value);
