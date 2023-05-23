@@ -15,9 +15,9 @@ redButton.addEventListener('click', () => {
     
    if (closeApp.style.display = 'none') {
        document.getElementById("silent").innerHTML = '<iframe src="../audio/250-milliseconds-of-silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>'
-        document.getElementById("rick").innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0&enablejsapi=1" title="YouTube video player" frameborder="0"; allow="accelerometer autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        document.getElementById("rick").innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&enablejsapi=1" title="YouTube video player" frameborder="0"; allow="accelerometer autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
        
-       document.getElementById("mmm").innerHTML = '<audio id="player" autoplay loop><source src="../audio/rick-roll.mp3" type="audio/mp3"></audio>';
+       document.getElementById("mmm").innerHTML = '<audio autoplay loop><source src="../audio/rick-roll.mp3" type="audio/mp3"></audio>';
    }
    })
 
