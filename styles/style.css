@@ -89,6 +89,13 @@ div.title {
   display: flex;
   flex-direction: row;
 }
+#rick {
+  display: flex;
+  background-color: #1e1e1e;
+  width: 100%;
+  height: 100%;
+}
+
 #terminal {
   display: flex;
   flex-direction: column;
