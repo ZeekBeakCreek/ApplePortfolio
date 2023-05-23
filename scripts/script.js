@@ -10,10 +10,10 @@ window.addEventListener('resize' , () => {
 }) 
 
 redButton.addEventListener('click', () => {
-  const closeApp = document.querySelector(".container");
+  const closeApp = document.querySelector(".terminal");
   closeApp.style.display = 'none'
    if (closeApp.style.display = 'none') {
-        document.getElementById("terminal").innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        document.getElementById("container").innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
    }
    })
 
